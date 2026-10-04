@@ -1,0 +1,101 @@
+id,query,level,domain,intent_type,intent,intents
+S001,What is John's employment status?,easy,employee_information,single,employee_information,none
+S002,What is John's current job title?,easy,employee_information,single,employee_information,none
+S003,What department does John work in?,easy,employee_information,single,employee_information,none
+S004,Who is John's direct reporting manager?,easy,employee_information,single,employee_information,none
+S005,What was John's official company start date?,easy,employee_information,single,employee_information,none
+S006,John moved from Sales to Finance last month. What position is he currently assigned to?,medium,employee_information,single,employee_information,none
+S007,John transferred departments and I need to verify whether his job record was updated.,medium,employee_information,single,employee_information,none
+S008,John changed roles recently. Who is listed as his current manager on file?,medium,employee_information,single,employee_information,none
+S009,John moved into a new role after an internal transfer but his record reflects his old position. What is his current record?,hard,employee_information,single,employee_information,none
+S010,An employee returned from an extended absence and there are conflicting details about active standing. What is their status?,hard,employee_information,single,employee_information,none
+S011,John has changed business units twice this year. I need to know which job profile and hierarchy is active.,hard,employee_information,single,employee_information,none
+S012,Has John submitted his timesheet for the current pay period?,easy,timesheet,single,timesheet,none
+S013,Is John's timesheet approved by his supervisor?,easy,timesheet,single,timesheet,none
+S014,Which hourly employees are still missing timesheets this week?,easy,timesheet,single,timesheet,none
+S015,How many total hours did John work during this past week?,easy,timesheet,single,timesheet,none
+S016,How do I correct a missed clock-in punch on John's timesheet?,easy,timesheet,single,timesheet,none
+S017,John says he submitted his hours but his manager cannot see the approval prompt. What is the timesheet state?,medium,timesheet,single,timesheet,none
+S018,John submitted incorrect overtime hours and needs to adjust them before the cutoff. What is the process?,medium,timesheet,single,timesheet,none
+S019,John's timesheet was sent back with a manager rejection note. What is its current submission status?,medium,timesheet,single,timesheet,none
+S020,John says he entered all shift hours but the audit log shows part of the pay period unrecorded. Is it complete?,hard,timesheet,single,timesheet,none
+S021,John disputes recorded punch hours because an automatic meal break deduction was applied incorrectly. What hours are logged?,hard,timesheet,single,timesheet,none
+S022,A manager approved John's hours but the timesheet batch still shows an unresolved punch exception flag.,hard,timesheet,single,timesheet,none
+S023,How many vacation days does John have left in his accrual bank?,easy,leaves,single,leaves,none
+S024,How much sick leave balance does John have available?,easy,leaves,single,leaves,none
+S025,What is the procedure for John to submit a paid time off request?,easy,leaves,single,leaves,none
+S026,Did John's requested bereavement leave get approved by HR?,easy,leaves,single,leaves,none
+S027,What is the company policy regarding annual vacation rollover limits?,easy,leaves,single,leaves,none
+S028,John requested time off two weeks ago but has not received a confirmation notice. What is the request status?,medium,leaves,single,leaves,none
+S029,John took intermittent family leave earlier this quarter. How many days remain under his approved allocation?,medium,leaves,single,leaves,none
+S030,John wants to know if floating holidays expire at the end of the fiscal year according to policy.,medium,leaves,single,leaves,none
+S031,John submitted an absence request that overlaps with a mandatory company blackout period. What is the status?,hard,leaves,single,leaves,none
+S032,John believes his unused sick leave balance should have carried over from last year but his portal shows zero.,hard,leaves,single,leaves,none
+S033,John's leave request changed from approved to pending revision following a scheduling conflict. What is its current standing?,hard,leaves,single,leaves,none
+S034,What health insurance plan is John currently enrolled in?,easy,benefits,single,benefits,none
+S035,When does the annual open enrollment period start for medical and dental coverage?,easy,benefits,single,benefits,none
+S036,Can John add his newborn child as a dependent on his vision insurance?,easy,benefits,single,benefits,none
+S037,What is the deductible amount on John's current medical insurance tier?,easy,benefits,single,benefits,none
+S038,John recently transitioned to full-time status. Is he eligible for company health benefits now?,medium,benefits,single,benefits,none
+S039,John completed enrollment in the dental plan but the election is not appearing in his benefits portal.,medium,benefits,single,benefits,none
+S040,John got married last week and wants to know what life event documentation is required to enroll his spouse.,medium,benefits,single,benefits,none
+S041,John wants to know the employer matching contribution percentage for the company 401k retirement plan.,medium,benefits,single,benefits,none
+S042,John experienced a qualifying life event 35 days ago. Can he still submit a mid-year benefit change election?,hard,benefits,single,benefits,none
+S043,An employee on disability leave wants to know if their basic life insurance and health coverage remain active during leave.,hard,benefits,single,benefits,none
+S044,John selected the high-deductible health plan during open enrollment but his insurance card lists the standard PPO plan.,hard,benefits,single,benefits,none
+S045,When is the direct deposit payout scheduled for the current pay period?,easy,payroll,single,payroll,none
+S046,Where can John download his latest paystub PDF?,easy,payroll,single,payroll,none
+S047,Has the semi-monthly payroll batch completed processing for the corporate office?,easy,payroll,single,payroll,none
+S048,How do I update John's direct deposit bank routing number?,easy,payroll,single,payroll,none
+S049,John expected his salary direct deposit today but the funds have not settled. Has payroll cleared?,medium,payroll,single,payroll,none
+S050,John's paycheck net amount is noticeably lower than last month despite identical gross wages. What explains the variance?,medium,payroll,single,payroll,none
+S051,The company adjusted its payroll frequency from bi-weekly to semi-monthly. What is the new schedule?,medium,payroll,single,payroll,none
+S052,John received an off-cycle retroactive pay adjustment. Which pay period does this check apply to?,medium,payroll,single,payroll,none
+S053,John's state tax withholding was calculated using the wrong jurisdiction after he relocated. How can the tax ledger be rectified?,hard,payroll,single,payroll,none
+S054,A mandatory wage garnishment order was served for John. Has the deduction calculation been verified against legal limits?,hard,payroll,single,payroll,none
+S055,The payroll batch pre-calculation report generated an unhandled tax calculation error for three salaried associates.,hard,payroll,single,payroll,none
+M001,John's benefits changed and his paycheck is different. Can you check his current benefits and explain his pay information?,hard,cross_domain,multiple,multiple,benefits|payroll
+M002,John submitted a timesheet late and now wants to know whether it was accepted and whether his payroll was processed.,hard,cross_domain,multiple,multiple,timesheet|payroll
+M003,John took vacation and wants to know how much leave remains and whether the absence affected his paycheck.,hard,cross_domain,multiple,multiple,leaves|payroll
+M004,John changed from part-time to full-time. Can you check his employment status and whether he is eligible for benefits?,hard,cross_domain,multiple,multiple,employee_information|benefits
+M005,John's paycheck is lower than expected and he thinks his timesheet may be the reason. Can you check his hours and payroll?,hard,cross_domain,multiple,multiple,timesheet|payroll
+M006,John changed jobs and requested leave. Are his current employee information and leave request up to date?,hard,cross_domain,multiple,multiple,employee_information|leaves
+M007,John was promoted and his pay changed. Can you check his current job information and whether his latest pay reflects the change?,hard,cross_domain,multiple,multiple,employee_information|payroll
+M008,John recently changed roles and his manager says his timesheet still shows the old assignment. Can you check his job information and timesheet status?,hard,cross_domain,multiple,multiple,employee_information|timesheet
+M009,John returned from leave and wants to confirm that his employee status is active and that his leave request is closed.,hard,cross_domain,multiple,multiple,employee_information|leaves
+M010,John submitted his timesheet but his paycheck was lower than expected. Can you check his submitted hours and pay information?,hard,cross_domain,multiple,multiple,timesheet|payroll
+M011,John's timesheet was rejected and payroll has already started. Can you check the timesheet issue and payroll status?,hard,cross_domain,multiple,multiple,timesheet|payroll
+M012,John says he submitted all his hours but payroll says something is missing. Can you check his timesheet status and payroll status?,hard,cross_domain,multiple,multiple,timesheet|payroll
+M013,John's benefit enrollment is missing and his paycheck changed. Can you check his benefit issue and pay information?,hard,cross_domain,multiple,multiple,benefits|payroll
+M014,John's paycheck is lower than expected and he thinks a missing timesheet caused it. Can you check payroll and whether his timesheet is complete?,hard,cross_domain,multiple,multiple,timesheet|payroll
+M015,John's payroll has not processed and he also has an unresolved leave request. Can you check both statuses?,hard,cross_domain,multiple,multiple,leaves|payroll
+M016,John's pay changed after a promotion. Can you check the payroll result and his current job information?,hard,cross_domain,multiple,multiple,employee_information|payroll
+M017,John is going on parental leave. Can you verify his remaining leave quota and check how his health benefits will be maintained during the absence?,hard,cross_domain,multiple,multiple,leaves|benefits
+M018,If John takes an unpaid personal leave of absence how does that impact his leave accruals and does his dental coverage stay active?,hard,cross_domain,multiple,multiple,leaves|benefits
+M019,John took 8 hours of sick leave yesterday but his timesheet also logs 4 regular hours. Can you check his leave balance and timesheet entries?,hard,cross_domain,multiple,multiple,leaves|timesheet
+M020,John had an approved vacation day on Monday but the system flagged an unexcused absence punch exception on his timesheet. Can you review both?,hard,cross_domain,multiple,multiple,leaves|timesheet
+M021,John transferred to a non-exempt hourly position. Can you verify his updated job title in employee records and confirm his new timecard is active?,hard,cross_domain,multiple,multiple,employee_information|timesheet
+M022,Can you check John's official employment termination date and find out when his company healthcare benefits coverage will terminate?,hard,cross_domain,multiple,multiple,employee_information|benefits
+M023,An employee wants to know if taking unpaid hours on their timesheet this pay cycle will drop them below the minimum threshold for health benefits eligibility.,hard,cross_domain,multiple,multiple,timesheet|benefits
+M024,John updated his home address after relocating to another state. Can you check his employee profile and verify if his payroll state withholding was updated?,hard,cross_domain,multiple,multiple,employee_information|payroll
+M025,John exhausted his paid medical leave and took two weeks of unpaid absence. Can you check his leave bank and confirm the unpaid salary deduction on his paystub?,hard,cross_domain,multiple,multiple,leaves|payroll
+M026,John increased his 401k contribution election to 8%. Can you verify the benefit enrollment record and verify if the pre-tax deduction was taken on his pay statement?,hard,cross_domain,multiple,multiple,benefits|payroll
+M027,John took two days of vacation and worked 24 regular hours this week. Can you check his leave balance and timesheet submission and verify his gross pay calculation?,hard,cross_domain,multiple,multiple,leaves|timesheet|payroll
+M028,John got married last month. Can you verify his marital status in employee records and check if his spouse was added to health insurance and review his new tax withholding?,hard,cross_domain,multiple,multiple,employee_information|benefits|payroll
+M029,John changed from a salaried to an hourly position. Can you confirm his updated job classification and check his new timesheet approval chain and verify his hourly pay rate?,hard,cross_domain,multiple,multiple,employee_information|timesheet|payroll
+M030,John is transitioning to extended medical leave. Can you verify his active employment status and inspect his remaining disability leave balance and review his ongoing benefit plan coverage?,hard,cross_domain,multiple,multiple,employee_information|leaves|benefits
+O001,My work laptop screen is flickering and the keyboard stopped responding. Can you help me order a replacement?,easy,out_of_scope,out_of_scope,out_of_scope,none
+O002,I am locked out of my corporate single sign-on account and need a password reset link sent to my phone.,easy,out_of_scope,out_of_scope,out_of_scope,none
+O003,How do I connect my home MacBook to the corporate GlobalProtect VPN gateway?,easy,out_of_scope,out_of_scope,out_of_scope,none
+O004,Can you approve my software license request for Figma Enterprise and GitHub Copilot?,medium,out_of_scope,out_of_scope,out_of_scope,none
+O005,I forgot my physical security badge at home. How do I get a temporary access card for the office turnstiles?,easy,out_of_scope,out_of_scope,out_of_scope,none
+O006,Where do I register my vehicle license plate to obtain a monthly parking permit for the company garage?,medium,out_of_scope,out_of_scope,out_of_scope,none
+O007,The conference room AC on floor 3 is completely off and the room is too warm. Can facilities fix the temperature?,medium,out_of_scope,out_of_scope,out_of_scope,none
+O008,What is the corporate per diem meal reimbursement limit for business travel to San Francisco?,medium,out_of_scope,out_of_scope,out_of_scope,none
+O009,How do I book roundtrip flights and lodging through Navan for the upcoming annual user conference?,medium,out_of_scope,out_of_scope,out_of_scope,none
+O010,Where can I locate the standard mutual NDA legal template to send to an external consulting firm?,medium,out_of_scope,out_of_scope,out_of_scope,none
+O011,What is the official procedure to file an anonymous whistleblower report regarding vendor contract steering?,hard,out_of_scope,out_of_scope,out_of_scope,none
+O012,Can you share the customer presentation slides and product pricing matrix for the enterprise sales pitch?,hard,out_of_scope,out_of_scope,out_of_scope,none
+O013,An enterprise client reported that our production webhook endpoint returned a 504 gateway timeout. Can someone inspect server telemetry?,hard,out_of_scope,out_of_scope,out_of_scope,none
+O014,What are the operating hours and catering menu options for the corporate cafe this afternoon?,easy,out_of_scope,out_of_scope,out_of_scope,none
+O015,Can you write a Python script using pandas and matplotlib to generate a bar chart of monthly expenses?,hard,out_of_scope,out_of_scope,out_of_scope,none

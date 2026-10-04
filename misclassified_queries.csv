@@ -1,0 +1,3 @@
+id,level,query,gold_type,pred_type,type_correct,type_confidence,gold_intent,pred_intent,intent_correct,intent_confidence,type_error,intent_error
+S043,hard,An employee on disability leave wants to know if their basic life insurance and health coverage remain active during leave.,single,multiple,False,0.82,benefits,multiple,False,0.48,single -> multiple,benefits -> multiple
+M024,hard,John updated his home address after relocating to another state. Can you check his employee profile and verify if his payroll state withholding was updated?,multiple,multiple,True,0.69,multiple,payroll,False,0.57,,multiple -> payroll

@@ -1,0 +1,142 @@
+{
+  "benchmark": {
+    "total_records": 100,
+    "valid_records": 100,
+    "invalid_records": 0
+  },
+  "accuracy": {
+    "intent_type": 0.99,
+    "primary_intent": 0.98,
+    "strict_exact": 0.98
+  },
+  "classification_reports": {
+    "intent_type": {
+      "single": {
+        "precision": 1.0,
+        "recall": 0.9818181818181818,
+        "f1-score": 0.9908256880733946,
+        "support": 55.0
+      },
+      "multiple": {
+        "precision": 0.967741935483871,
+        "recall": 1.0,
+        "f1-score": 0.9836065573770492,
+        "support": 30.0
+      },
+      "out_of_scope": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 15.0
+      },
+      "accuracy": 0.99,
+      "macro avg": {
+        "precision": 0.989247311827957,
+        "recall": 0.993939393939394,
+        "f1-score": 0.9914774151501479,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.9903225806451613,
+        "recall": 0.99,
+        "f1-score": 0.9900360956534817,
+        "support": 100.0
+      }
+    },
+    "primary_intent": {
+      "employee_information": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11.0
+      },
+      "leaves": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11.0
+      },
+      "timesheet": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11.0
+      },
+      "benefits": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9523809523809523,
+        "support": 11.0
+      },
+      "payroll": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1-score": 0.9565217391304348,
+        "support": 11.0
+      },
+      "multiple": {
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9666666666666667,
+        "support": 30.0
+      },
+      "out_of_scope": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 15.0
+      },
+      "accuracy": 0.98,
+      "macro avg": {
+        "precision": 0.9833333333333334,
+        "recall": 0.9822510822510823,
+        "f1-score": 0.9822241940254363,
+        "support": 100.0
+      },
+      "weighted avg": {
+        "precision": 0.9808333333333333,
+        "recall": 0.98,
+        "f1-score": 0.9799792960662527,
+        "support": 100.0
+      }
+    }
+  },
+  "difficulty": [
+    {
+      "level": "easy",
+      "total_queries": 28.0,
+      "intent_type_acc": 1.0,
+      "domain_intent_acc": 1.0,
+      "strict_both_acc": 1.0
+    },
+    {
+      "level": "medium",
+      "total_queries": 23.0,
+      "intent_type_acc": 1.0,
+      "domain_intent_acc": 1.0,
+      "strict_both_acc": 1.0
+    },
+    {
+      "level": "hard",
+      "total_queries": 49.0,
+      "intent_type_acc": 0.9795918367346939,
+      "domain_intent_acc": 0.9591836734693877,
+      "strict_both_acc": 0.9591836734693877
+    }
+  ],
+  "latency": {
+    "count": 100,
+    "p50_ms": 139.06,
+    "p90_ms": 167.29600000000002,
+    "p95_ms": 185.08649999999997,
+    "p99_ms": 262.9487000000001,
+    "mean_ms": 144.2696,
+    "std_ms": 27.72259193942731,
+    "min_ms": 112.55,
+    "max_ms": 276.68
+  },
+  "errors": {
+    "count": 2,
+    "error_rate": 0.02
+  }
+}

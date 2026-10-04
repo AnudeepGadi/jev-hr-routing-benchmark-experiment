@@ -1,0 +1,5296 @@
+[
+  {
+    "id": "S001",
+    "query": "What is John's employment status?",
+    "level": "easy",
+    "domain": "employee_information",
+    "latency_ms": 276.68,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.98,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.01,
+            "multiple": 0.0,
+            "single": 0.99
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "employee_information": 1.0,
+            "benefits": 0.0,
+            "out_of_scope": 0.0,
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 882,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04b6d79b28efe4bbbf633406c"
+    }
+  },
+  {
+    "id": "S002",
+    "query": "What is John's current job title?",
+    "level": "easy",
+    "domain": "employee_information",
+    "latency_ms": 121.64,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.96,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.02,
+            "single": 0.98,
+            "multiple": 0.0
+          },
+          "confidence": 0.96
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "employee_information": 1.0,
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 883,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04c17790fbd4c563b5ca03201"
+    }
+  },
+  {
+    "id": "S003",
+    "query": "What department does John work in?",
+    "level": "easy",
+    "domain": "employee_information",
+    "latency_ms": 134.32,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.92,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.05,
+            "single": 0.95,
+            "multiple": 0.0
+          },
+          "confidence": 0.92
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "leaves": 0.0,
+            "employee_information": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 882,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04c9177d5b114d3a213c60e62"
+    }
+  },
+  {
+    "id": "S004",
+    "query": "Who is John's direct reporting manager?",
+    "level": "easy",
+    "domain": "employee_information",
+    "latency_ms": 116.53,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.95,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.03,
+            "multiple": 0.0,
+            "single": 0.97
+          },
+          "confidence": 0.95
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "payroll": 0.0,
+            "employee_information": 1.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 883,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04d197a8fa3702ffa4fc028e2"
+    }
+  },
+  {
+    "id": "S005",
+    "query": "What was John's official company start date?",
+    "level": "easy",
+    "domain": "employee_information",
+    "latency_ms": 155.72,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "benefits": 0.0,
+            "out_of_scope": 0.0,
+            "payroll": 0.0,
+            "employee_information": 1.0,
+            "multiple": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 884,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04d907ae48ea40da040097757"
+    }
+  },
+  {
+    "id": "S006",
+    "query": "John moved from Sales to Finance last month. What position is he currently assigned to?",
+    "level": "medium",
+    "domain": "employee_information",
+    "latency_ms": 248.36,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.98,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.99,
+            "multiple": 0.0,
+            "out_of_scope": 0.01
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "payroll": 0.0,
+            "employee_information": 1.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 892,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04e2f7b82a6497b94281d8202"
+    }
+  },
+  {
+    "id": "S007",
+    "query": "John transferred departments and I need to verify whether his job record was updated.",
+    "level": "medium",
+    "domain": "employee_information",
+    "latency_ms": 142.7,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.98,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.99,
+            "out_of_scope": 0.0,
+            "multiple": 0.01
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "benefits": 0.0,
+            "employee_information": 1.0,
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 890,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04f29738ca8b92ed2333854bc"
+    }
+  },
+  {
+    "id": "S008",
+    "query": "John changed roles recently. Who is listed as his current manager on file?",
+    "level": "medium",
+    "domain": "employee_information",
+    "latency_ms": 148.54,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "employee_information": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 890,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b04fb8746dbda80fdf62603c83"
+    }
+  },
+  {
+    "id": "S009",
+    "query": "John moved into a new role after an internal transfer but his record reflects his old position. What is his current record?",
+    "level": "hard",
+    "domain": "employee_information",
+    "latency_ms": 113.99,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.97,
+      "intent": "employee_information",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.99,
+            "multiple": 0.01
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 1.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 899,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0504b74ae880e379f046b179f"
+    }
+  },
+  {
+    "id": "S010",
+    "query": "An employee returned from an extended absence and there are conflicting details about active standing. What is their status?",
+    "level": "hard",
+    "domain": "employee_information",
+    "latency_ms": 146.41,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.6,
+      "intent": "employee_information",
+      "intent_confidence": 0.95
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.73,
+            "out_of_scope": 0.0,
+            "multiple": 0.27
+          },
+          "confidence": 0.6
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "timesheet": 0.0,
+            "leaves": 0.02,
+            "employee_information": 0.96,
+            "out_of_scope": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.02
+          },
+          "confidence": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b050c175d4a7d7d10c7e696631"
+    }
+  },
+  {
+    "id": "S011",
+    "query": "John has changed business units twice this year. I need to know which job profile and hierarchy is active.",
+    "level": "hard",
+    "domain": "employee_information",
+    "latency_ms": 151.81,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "employee_information",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.9,
+      "intent": "employee_information",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.07,
+            "out_of_scope": 0.0,
+            "single": 0.93
+          },
+          "confidence": 0.9
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "employee_information",
+          "probabilities": {
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 1.0,
+            "benefits": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b051597ce68120fd59df4f88f5"
+    }
+  },
+  {
+    "id": "S012",
+    "query": "Has John submitted his timesheet for the current pay period?",
+    "level": "easy",
+    "domain": "timesheet",
+    "latency_ms": 141.31,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.0,
+            "single": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 887,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b051eb7912ba359d8bc9f1e434"
+    }
+  },
+  {
+    "id": "S013",
+    "query": "Is John's timesheet approved by his supervisor?",
+    "level": "easy",
+    "domain": "timesheet",
+    "latency_ms": 128.6,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 0.01,
+            "single": 0.99
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "timesheet": 1.0,
+            "employee_information": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 885,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0527c7fa78be262eba2168029"
+    }
+  },
+  {
+    "id": "S014",
+    "query": "Which hourly employees are still missing timesheets this week?",
+    "level": "easy",
+    "domain": "timesheet",
+    "latency_ms": 158.47,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "benefits": 0.0,
+            "out_of_scope": 0.0,
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 887,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b052ff76da84a229f4af5ee09a"
+    }
+  },
+  {
+    "id": "S015",
+    "query": "How many total hours did John work during this past week?",
+    "level": "easy",
+    "domain": "timesheet",
+    "latency_ms": 159.8,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "timesheet": 1.0,
+            "employee_information": 0.0,
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 887,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b053a07d53b42bbeee31b439da"
+    }
+  },
+  {
+    "id": "S016",
+    "query": "How do I correct a missed clock-in punch on John's timesheet?",
+    "level": "easy",
+    "domain": "timesheet",
+    "latency_ms": 115.37,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "timesheet": 1.0,
+            "employee_information": 0.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 890,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0543c790eb7e5dfe24d2b6e4b"
+    }
+  },
+  {
+    "id": "S017",
+    "query": "John says he submitted his hours but his manager cannot see the approval prompt. What is the timesheet state?",
+    "level": "medium",
+    "domain": "timesheet",
+    "latency_ms": 127.16,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "timesheet",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 0.0,
+            "single": 1.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "leaves": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.0,
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 1.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b054b37b84a2ba1d1a35e95ede"
+    }
+  },
+  {
+    "id": "S018",
+    "query": "John submitted incorrect overtime hours and needs to adjust them before the cutoff. What is the process?",
+    "level": "medium",
+    "domain": "timesheet",
+    "latency_ms": 178.56,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "timesheet",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.99,
+            "benefits": 0.0,
+            "payroll": 0.01,
+            "leaves": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b055307cb682193fac5b3e974d"
+    }
+  },
+  {
+    "id": "S019",
+    "query": "John's timesheet was sent back with a manager rejection note. What is its current submission status?",
+    "level": "medium",
+    "domain": "timesheet",
+    "latency_ms": 121.4,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "single": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 1.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b055e67f1dbc9bde9d87e95a71"
+    }
+  },
+  {
+    "id": "S020",
+    "query": "John says he entered all shift hours but the audit log shows part of the pay period unrecorded. Is it complete?",
+    "level": "hard",
+    "domain": "timesheet",
+    "latency_ms": 127.62,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.71,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.81,
+            "multiple": 0.19
+          },
+          "confidence": 0.71
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "employee_information": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "timesheet": 1.0,
+            "multiple": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 901,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b056607e54a6b434da0ca343d2"
+    }
+  },
+  {
+    "id": "S021",
+    "query": "John disputes recorded punch hours because an automatic meal break deduction was applied incorrectly. What hours are logged?",
+    "level": "hard",
+    "domain": "timesheet",
+    "latency_ms": 129.68,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.99,
+            "multiple": 0.01,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "payroll": 0.0,
+            "timesheet": 1.0,
+            "multiple": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "leaves": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b056e07a2fad712a90154eb899"
+    }
+  },
+  {
+    "id": "S022",
+    "query": "A manager approved John's hours but the timesheet batch still shows an unresolved punch exception flag.",
+    "level": "hard",
+    "domain": "timesheet",
+    "latency_ms": 184.81,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "timesheet",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.94,
+      "intent": "timesheet",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 0.04,
+            "single": 0.96
+          },
+          "confidence": 0.94
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "timesheet",
+          "probabilities": {
+            "timesheet": 1.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0576779dca93b0ef68378779c"
+    }
+  },
+  {
+    "id": "S023",
+    "query": "How many vacation days does John have left in his accrual bank?",
+    "level": "easy",
+    "domain": "leaves",
+    "latency_ms": 150.61,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "leaves": 1.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "payroll": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 889,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0582875da938d26aaa4d6b6ff"
+    }
+  },
+  {
+    "id": "S024",
+    "query": "How much sick leave balance does John have available?",
+    "level": "easy",
+    "domain": "leaves",
+    "latency_ms": 118.18,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "leaves": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 885,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b058b5719a8d289b14ff573c00"
+    }
+  },
+  {
+    "id": "S025",
+    "query": "What is the procedure for John to submit a paid time off request?",
+    "level": "easy",
+    "domain": "leaves",
+    "latency_ms": 123.68,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "leaves": 1.0,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.0,
+            "payroll": 0.0,
+            "employee_information": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 889,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0592e7852a9a1bd3e5c8b3b44"
+    }
+  },
+  {
+    "id": "S026",
+    "query": "Did John's requested bereavement leave get approved by HR?",
+    "level": "easy",
+    "domain": "leaves",
+    "latency_ms": 146.48,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "single": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "leaves": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 888,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b059a97a4f968dd764710a947f"
+    }
+  },
+  {
+    "id": "S027",
+    "query": "What is the company policy regarding annual vacation rollover limits?",
+    "level": "easy",
+    "domain": "leaves",
+    "latency_ms": 141.44,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "leaves": 1.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 887,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05a40727d980df74eee0f2c12"
+    }
+  },
+  {
+    "id": "S028",
+    "query": "John requested time off two weeks ago but has not received a confirmation notice. What is the request status?",
+    "level": "medium",
+    "domain": "leaves",
+    "latency_ms": 128.23,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 1.0,
+            "benefits": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05ad079fb9b50d69313cf82a2"
+    }
+  },
+  {
+    "id": "S029",
+    "query": "John took intermittent family leave earlier this quarter. How many days remain under his approved allocation?",
+    "level": "medium",
+    "domain": "leaves",
+    "latency_ms": 112.55,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "benefits": 0.0,
+            "timesheet": 0.0,
+            "leaves": 1.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "employee_information": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 893,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05b4c7c7ab27f832f3ab91bb8"
+    }
+  },
+  {
+    "id": "S030",
+    "query": "John wants to know if floating holidays expire at the end of the fiscal year according to policy.",
+    "level": "medium",
+    "domain": "leaves",
+    "latency_ms": 124.72,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "leaves": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05bc17644b699ca71da9db6ae"
+    }
+  },
+  {
+    "id": "S031",
+    "query": "John submitted an absence request that overlaps with a mandatory company blackout period. What is the status?",
+    "level": "hard",
+    "domain": "leaves",
+    "latency_ms": 172.25,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.85,
+      "intent": "leaves",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.9,
+            "multiple": 0.1,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.85
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "benefits": 0.0,
+            "leaves": 1.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05c537aab9c67a3ed0634b034"
+    }
+  },
+  {
+    "id": "S032",
+    "query": "John believes his unused sick leave balance should have carried over from last year but his portal shows zero.",
+    "level": "hard",
+    "domain": "leaves",
+    "latency_ms": 190.34,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.01,
+            "out_of_scope": 0.0,
+            "single": 0.99
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "leaves": 1.0,
+            "employee_information": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05cef717b98e2ed9739a51ef1"
+    }
+  },
+  {
+    "id": "S033",
+    "query": "John's leave request changed from approved to pending revision following a scheduling conflict. What is its current standing?",
+    "level": "hard",
+    "domain": "leaves",
+    "latency_ms": 160.71,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "leaves",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "leaves",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.0,
+            "single": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "leaves",
+          "probabilities": {
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "leaves": 1.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05dad735aa81d46afe07a8310"
+    }
+  },
+  {
+    "id": "S034",
+    "query": "What health insurance plan is John currently enrolled in?",
+    "level": "easy",
+    "domain": "benefits",
+    "latency_ms": 129.43,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "single": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 885,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05e4e7c02b22713d68838fe88"
+    }
+  },
+  {
+    "id": "S035",
+    "query": "When does the annual open enrollment period start for medical and dental coverage?",
+    "level": "easy",
+    "domain": "benefits",
+    "latency_ms": 141.74,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.99,
+            "out_of_scope": 0.0,
+            "multiple": 0.01
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "leaves": 0.0,
+            "benefits": 1.0,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 889,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05ecf72fa8c4c75a7f0c96f2d"
+    }
+  },
+  {
+    "id": "S036",
+    "query": "Can John add his newborn child as a dependent on his vision insurance?",
+    "level": "easy",
+    "domain": "benefits",
+    "latency_ms": 161.14,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "benefits": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 889,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b05f617831a61745cbe88fa03f"
+    }
+  },
+  {
+    "id": "S037",
+    "query": "What is the deductible amount on John's current medical insurance tier?",
+    "level": "easy",
+    "domain": "benefits",
+    "latency_ms": 135.59,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 1.0,
+            "payroll": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 888,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b060037ab38854f94aa78d28ac"
+    }
+  },
+  {
+    "id": "S038",
+    "query": "John recently transitioned to full-time status. Is he eligible for company health benefits now?",
+    "level": "medium",
+    "domain": "benefits",
+    "latency_ms": 139.66,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.88,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.92,
+            "multiple": 0.08
+          },
+          "confidence": 0.88
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "benefits": 1.0,
+            "leaves": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0608d782d86999a00f32c6b90"
+    }
+  },
+  {
+    "id": "S039",
+    "query": "John completed enrollment in the dental plan but the election is not appearing in his benefits portal.",
+    "level": "medium",
+    "domain": "benefits",
+    "latency_ms": 155.02,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.98,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.99,
+            "out_of_scope": 0.0,
+            "multiple": 0.01
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 1.0,
+            "payroll": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 893,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b06118717c91aa11c46e474910"
+    }
+  },
+  {
+    "id": "S040",
+    "query": "John got married last week and wants to know what life event documentation is required to enroll his spouse.",
+    "level": "medium",
+    "domain": "benefits",
+    "latency_ms": 123.8,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.97,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "multiple": 0.02,
+            "out_of_scope": 0.0,
+            "single": 0.98
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b061b570b1885d4435ba76adc9"
+    }
+  },
+  {
+    "id": "S041",
+    "query": "John wants to know the employer matching contribution percentage for the company 401k retirement plan.",
+    "level": "medium",
+    "domain": "benefits",
+    "latency_ms": 128.62,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 0.0,
+            "single": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "benefits": 1.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b062347745b14261be0205b97d"
+    }
+  },
+  {
+    "id": "S042",
+    "query": "John experienced a qualifying life event 35 days ago. Can he still submit a mid-year benefit change election?",
+    "level": "hard",
+    "domain": "benefits",
+    "latency_ms": 139.45,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "payroll": 0.0,
+            "benefits": 1.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b062b678f19c2752bae0bb6d1c"
+    }
+  },
+  {
+    "id": "S043",
+    "query": "An employee on disability leave wants to know if their basic life insurance and health coverage remain active during leave.",
+    "level": "hard",
+    "domain": "benefits",
+    "latency_ms": 156.05,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.82,
+      "intent": "multiple",
+      "intent_confidence": 0.48
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.12,
+            "multiple": 0.88,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.82
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.44,
+            "leaves": 0.01,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.55
+          },
+          "confidence": 0.48
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0634575e796024bfd5b43177c"
+    }
+  },
+  {
+    "id": "S044",
+    "query": "John selected the high-deductible health plan during open enrollment but his insurance card lists the standard PPO plan.",
+    "level": "hard",
+    "domain": "benefits",
+    "latency_ms": 122.02,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "benefits",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.95,
+      "intent": "benefits",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.97,
+            "multiple": 0.03
+          },
+          "confidence": 0.95
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "benefits",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "benefits": 1.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b063e07980bec2b09c4f200f38"
+    }
+  },
+  {
+    "id": "S045",
+    "query": "When is the direct deposit payout scheduled for the current pay period?",
+    "level": "easy",
+    "domain": "payroll",
+    "latency_ms": 121.01,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "payroll": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 888,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0645b77acbaabf18ea62f4fd0"
+    }
+  },
+  {
+    "id": "S046",
+    "query": "Where can John download his latest paystub PDF?",
+    "level": "easy",
+    "domain": "payroll",
+    "latency_ms": 138.67,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.99,
+            "multiple": 0.0,
+            "out_of_scope": 0.01
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "payroll": 1.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 885,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b064d87cac847f2b8f4bb4ac0e"
+    }
+  },
+  {
+    "id": "S047",
+    "query": "Has the semi-monthly payroll batch completed processing for the corporate office?",
+    "level": "easy",
+    "domain": "payroll",
+    "latency_ms": 149.75,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "leaves": 0.0,
+            "benefits": 0.0,
+            "payroll": 1.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 890,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0656371b589f75bf3aa4c58e7"
+    }
+  },
+  {
+    "id": "S048",
+    "query": "How do I update John's direct deposit bank routing number?",
+    "level": "easy",
+    "domain": "payroll",
+    "latency_ms": 135.25,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "payroll": 1.0,
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 887,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b065f872f6ad5ad4adcd696df4"
+    }
+  },
+  {
+    "id": "S049",
+    "query": "John expected his salary direct deposit today but the funds have not settled. Has payroll cleared?",
+    "level": "medium",
+    "domain": "payroll",
+    "latency_ms": 149.08,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "leaves": 0.0,
+            "payroll": 1.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 893,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0668473028fa43382708057bc"
+    }
+  },
+  {
+    "id": "S050",
+    "query": "John's paycheck net amount is noticeably lower than last month despite identical gross wages. What explains the variance?",
+    "level": "medium",
+    "domain": "payroll",
+    "latency_ms": 165.32,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.98,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.99,
+            "multiple": 0.01
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "payroll": 1.0,
+            "benefits": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0671775a3959bbfa0a7db3b8b"
+    }
+  },
+  {
+    "id": "S051",
+    "query": "The company adjusted its payroll frequency from bi-weekly to semi-monthly. What is the new schedule?",
+    "level": "medium",
+    "domain": "payroll",
+    "latency_ms": 148.8,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 1.0,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 1.0,
+            "multiple": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "leaves": 0.0,
+            "payroll": 1.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b067bf78879e57fba525ee7ba1"
+    }
+  },
+  {
+    "id": "S052",
+    "query": "John received an off-cycle retroactive pay adjustment. Which pay period does this check apply to?",
+    "level": "medium",
+    "domain": "payroll",
+    "latency_ms": 151.49,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.99,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "leaves": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "payroll": 1.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b068567a55ac0de028fb871b8a"
+    }
+  },
+  {
+    "id": "S053",
+    "query": "John's state tax withholding was calculated using the wrong jurisdiction after he relocated. How can the tax ledger be rectified?",
+    "level": "hard",
+    "domain": "payroll",
+    "latency_ms": 130.56,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.9,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.93,
+            "multiple": 0.05,
+            "out_of_scope": 0.02
+          },
+          "confidence": 0.9
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "payroll": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 899,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b068f57483b279817737ef0ba0"
+    }
+  },
+  {
+    "id": "S054",
+    "query": "A mandatory wage garnishment order was served for John. Has the deduction calculation been verified against legal limits?",
+    "level": "hard",
+    "domain": "payroll",
+    "latency_ms": 137.57,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.83,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "out_of_scope": 0.04,
+            "single": 0.88,
+            "multiple": 0.08
+          },
+          "confidence": 0.83
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "payroll": 1.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b069737427b487ac5c89dc48c0"
+    }
+  },
+  {
+    "id": "S055",
+    "query": "The payroll batch pre-calculation report generated an unhandled tax calculation error for three salaried associates.",
+    "level": "hard",
+    "domain": "payroll",
+    "latency_ms": 135.51,
+    "ground_truth": {
+      "intent_type": "single",
+      "intent": "payroll",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "single",
+      "intent_type_confidence": 0.97,
+      "intent": "payroll",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "single",
+          "probabilities": {
+            "single": 0.98,
+            "multiple": 0.01,
+            "out_of_scope": 0.01
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "payroll": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b069fb77e4a99b2d2778d73cbc"
+    }
+  },
+  {
+    "id": "M001",
+    "query": "John's benefits changed and his paycheck is different. Can you check his current benefits and explain his pay information?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 116.04,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "benefits",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.99,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.0,
+            "multiple": 1.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "multiple": 1.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06a84754883e1adc8e53a138c"
+    }
+  },
+  {
+    "id": "M002",
+    "query": "John submitted a timesheet late and now wants to know whether it was accepted and whether his payroll was processed.",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 157.24,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.99,
+      "intent": "multiple",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.01,
+            "multiple": 0.99,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.98,
+            "timesheet": 0.0,
+            "payroll": 0.02,
+            "leaves": 0.0,
+            "benefits": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06af772a68df72fe4dfe3ac32"
+    }
+  },
+  {
+    "id": "M003",
+    "query": "John took vacation and wants to know how much leave remains and whether the absence affected his paycheck.",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 127.73,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.98,
+      "intent": "multiple",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.99,
+            "out_of_scope": 0.0,
+            "single": 0.01
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "benefits": 0.0,
+            "leaves": 0.02,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "multiple": 0.98,
+            "employee_information": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06b9a7340a4edc039a73d0dd8"
+    }
+  },
+  {
+    "id": "M004",
+    "query": "John changed from part-time to full-time. Can you check his employment status and whether he is eligible for benefits?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 112.95,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "benefits"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.94,
+      "intent": "multiple",
+      "intent_confidence": 0.96
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.04,
+            "multiple": 0.96,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.94
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.02,
+            "multiple": 0.96,
+            "benefits": 0.02,
+            "out_of_scope": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 0.96
+        }
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06c1873df8299c9443afef95b"
+    }
+  },
+  {
+    "id": "M005",
+    "query": "John's paycheck is lower than expected and he thinks his timesheet may be the reason. Can you check his hours and payroll?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 175.17,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 0.95
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 1.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "leaves": 0.0,
+            "payroll": 0.04,
+            "benefits": 0.0,
+            "multiple": 0.96,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 901,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06c8b7ddeb2b4cb03093410af"
+    }
+  },
+  {
+    "id": "M006",
+    "query": "John changed jobs and requested leave. Are his current employee information and leave request up to date?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 127.98,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "leaves"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.98,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.01,
+            "multiple": 0.99,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "multiple": 1.0,
+            "payroll": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06d3b7470ac4312c4aad399b0"
+    }
+  },
+  {
+    "id": "M007",
+    "query": "John was promoted and his pay changed. Can you check his current job information and whether his latest pay reflects the change?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 121.72,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.97,
+      "intent": "multiple",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.02,
+            "multiple": 0.98
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "employee_information": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "payroll": 0.01,
+            "multiple": 0.99,
+            "benefits": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 899,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06dbb7a51a2e8b0fad9eedf2a"
+    }
+  },
+  {
+    "id": "M008",
+    "query": "John recently changed roles and his manager says his timesheet still shows the old assignment. Can you check his job information and timesheet status?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 156.56,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "timesheet"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.97,
+      "intent": "multiple",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.02,
+            "multiple": 0.98
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "leaves": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.01,
+            "out_of_scope": 0.0,
+            "timesheet": 0.01,
+            "payroll": 0.0,
+            "multiple": 0.98
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 903,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06e367103b0eb08f977e7fbd2"
+    }
+  },
+  {
+    "id": "M009",
+    "query": "John returned from leave and wants to confirm that his employee status is active and that his leave request is closed.",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 161.5,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "leaves"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.89,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.07,
+            "multiple": 0.93
+          },
+          "confidence": 0.89
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.01,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.99
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06ed5706eab3df132e25d93eb"
+    }
+  },
+  {
+    "id": "M010",
+    "query": "John submitted his timesheet but his paycheck was lower than expected. Can you check his submitted hours and pay information?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 153.55,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.98,
+      "intent": "multiple",
+      "intent_confidence": 0.78
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.01,
+            "out_of_scope": 0.0,
+            "multiple": 0.99
+          },
+          "confidence": 0.98
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.19,
+            "multiple": 0.81
+          },
+          "confidence": 0.78
+        }
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b06f767bbdbd4d528edb36c363"
+    }
+  },
+  {
+    "id": "M011",
+    "query": "John's timesheet was rejected and payroll has already started. Can you check the timesheet issue and payroll status?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 145.23,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.99,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 1.0,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0701773d9bc99a9f5601ee53f"
+    }
+  },
+  {
+    "id": "M012",
+    "query": "John says he submitted all his hours but payroll says something is missing. Can you check his timesheet status and payroll status?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 117.17,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 900,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b070a3742ab2bd99007d6c1bcf"
+    }
+  },
+  {
+    "id": "M013",
+    "query": "John's benefit enrollment is missing and his paycheck changed. Can you check his benefit issue and pay information?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 160.28,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "benefits",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.0,
+            "multiple": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0,
+            "multiple": 1.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0712978989cdcb4777902fc62"
+    }
+  },
+  {
+    "id": "M014",
+    "query": "John's paycheck is lower than expected and he thinks a missing timesheet caused it. Can you check payroll and whether his timesheet is complete?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 164.93,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.99,
+      "intent": "multiple",
+      "intent_confidence": 0.94
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.99,
+            "single": 0.01,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 0.95,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.05
+          },
+          "confidence": 0.94
+        }
+      },
+      "usage": {
+        "input_tokens": 904,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b071bd7476ab5a92fbdb4446c5"
+    }
+  },
+  {
+    "id": "M015",
+    "query": "John's payroll has not processed and he also has an unresolved leave request. Can you check both statuses?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 135.3,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 1.0,
+            "out_of_scope": 0.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 1.0,
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b072617c44bc4d436547040967"
+    }
+  },
+  {
+    "id": "M016",
+    "query": "John's pay changed after a promotion. Can you check the payroll result and his current job information?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 123.94,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.99,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.99,
+            "out_of_scope": 0.0,
+            "single": 0.01
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "multiple": 1.0,
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b072ea72cdb826cd283187c893"
+    }
+  },
+  {
+    "id": "M017",
+    "query": "John is going on parental leave. Can you verify his remaining leave quota and check how his health benefits will be maintained during the absence?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 154.0,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "benefits"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 902,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0736d7769af9e7429d2d10cbb"
+    }
+  },
+  {
+    "id": "M018",
+    "query": "If John takes an unpaid personal leave of absence how does that impact his leave accruals and does his dental coverage stay active?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 133.39,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "benefits"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "benefits": 0.0,
+            "leaves": 0.01,
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 0.99,
+            "timesheet": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 901,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0740c7fcd8cdb8ebec281d700"
+    }
+  },
+  {
+    "id": "M019",
+    "query": "John took 8 hours of sick leave yesterday but his timesheet also logs 4 regular hours. Can you check his leave balance and timesheet entries?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 155.17,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "timesheet"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.91,
+      "intent": "multiple",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.06,
+            "multiple": 0.94,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.91
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "leaves": 0.01,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "multiple": 0.99,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 906,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0748f742898768468c3aed2f0"
+    }
+  },
+  {
+    "id": "M020",
+    "query": "John had an approved vacation day on Monday but the system flagged an unexcused absence punch exception on his timesheet. Can you review both?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 146.06,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "timesheet"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.91,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.94,
+            "single": 0.06,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.91
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "multiple": 1.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 904,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0754071d7958f73bab83ad347"
+    }
+  },
+  {
+    "id": "M021",
+    "query": "John transferred to a non-exempt hourly position. Can you verify his updated job title in employee records and confirm his new timecard is active?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 127.67,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "timesheet"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.95,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.97,
+            "single": 0.03,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.95
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 1.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 904,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b075bf754893924329e6c2de19"
+    }
+  },
+  {
+    "id": "M022",
+    "query": "Can you check John's official employment termination date and find out when his company healthcare benefits coverage will terminate?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 122.31,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "benefits"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.95,
+      "intent": "multiple",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.03,
+            "multiple": 0.97,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.95
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.01,
+            "multiple": 0.99,
+            "payroll": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0763d7965baa5850e9e4466e0"
+    }
+  },
+  {
+    "id": "M023",
+    "query": "An employee wants to know if taking unpaid hours on their timesheet this pay cycle will drop them below the minimum threshold for health benefits eligibility.",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 138.43,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "timesheet",
+        "benefits"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.96,
+      "intent": "multiple",
+      "intent_confidence": 0.45
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.97,
+            "out_of_scope": 0.0,
+            "single": 0.03
+          },
+          "confidence": 0.96
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.01,
+            "multiple": 0.53,
+            "payroll": 0.0,
+            "out_of_scope": 0.0,
+            "benefits": 0.46
+          },
+          "confidence": 0.45
+        }
+      },
+      "usage": {
+        "input_tokens": 903,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b076bc7c81be6608ca1581451b"
+    }
+  },
+  {
+    "id": "M024",
+    "query": "John updated his home address after relocating to another state. Can you check his employee profile and verify if his payroll state withholding was updated?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 118.73,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.69,
+      "intent": "payroll",
+      "intent_confidence": 0.57
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.21,
+            "multiple": 0.79,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.69
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "payroll",
+          "probabilities": {
+            "payroll": 0.63,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.37,
+            "out_of_scope": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 0.57
+        }
+      },
+      "usage": {
+        "input_tokens": 904,
+        "output_tokens": 112
+      },
+      "request_id": "req_01a108b0774473e29aa385752cf7bfbc"
+    }
+  },
+  {
+    "id": "M025",
+    "query": "John exhausted his paid medical leave and took two weeks of unpaid absence. Can you check his leave bank and confirm the unpaid salary deduction on his paystub?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 129.09,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.97,
+      "intent": "multiple",
+      "intent_confidence": 0.94
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.98,
+            "single": 0.02,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "payroll": 0.01,
+            "multiple": 0.95,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.04,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.94
+        }
+      },
+      "usage": {
+        "input_tokens": 906,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b077bc779c9853fff7fe451741"
+    }
+  },
+  {
+    "id": "M026",
+    "query": "John increased his 401k contribution election to 8%. Can you verify the benefit enrollment record and verify if the pre-tax deduction was taken on his pay statement?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 262.81,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "benefits",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.91,
+      "intent": "multiple",
+      "intent_confidence": 0.93
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "multiple": 0.94,
+            "out_of_scope": 0.0,
+            "single": 0.06
+          },
+          "confidence": 0.91
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.94,
+            "timesheet": 0.0,
+            "payroll": 0.02,
+            "out_of_scope": 0.0,
+            "leaves": 0.0,
+            "benefits": 0.04
+          },
+          "confidence": 0.93
+        }
+      },
+      "usage": {
+        "input_tokens": 910,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b0783f7f0295590b249b850540"
+    }
+  },
+  {
+    "id": "M027",
+    "query": "John took two days of vacation and worked 24 regular hours this week. Can you check his leave balance and timesheet submission and verify his gross pay calculation?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 122.32,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "leaves",
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 908,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b07947757f813f87b8b22f3d8d"
+    }
+  },
+  {
+    "id": "M028",
+    "query": "John got married last month. Can you verify his marital status in employee records and check if his spouse was added to health insurance and review his new tax withholding?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 135.57,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "benefits",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "out_of_scope": 0.0,
+            "single": 0.0,
+            "multiple": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.0,
+            "multiple": 1.0,
+            "employee_information": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 907,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b079c07ee38b0c576886faa323"
+    }
+  },
+  {
+    "id": "M029",
+    "query": "John changed from a salaried to an hourly position. Can you confirm his updated job classification and check his new timesheet approval chain and verify his hourly pay rate?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 147.92,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "timesheet",
+        "payroll"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 0.97,
+      "intent": "multiple",
+      "intent_confidence": 0.99
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.02,
+            "multiple": 0.98,
+            "out_of_scope": 0.0
+          },
+          "confidence": 0.97
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 909,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b07a5275c4b289e3fa16699f5f"
+    }
+  },
+  {
+    "id": "M030",
+    "query": "John is transitioning to extended medical leave. Can you verify his active employment status and inspect his remaining disability leave balance and review his ongoing benefit plan coverage?",
+    "level": "hard",
+    "domain": "cross_domain",
+    "latency_ms": 117.15,
+    "ground_truth": {
+      "intent_type": "multiple",
+      "intent": "multiple",
+      "intents": [
+        "employee_information",
+        "leaves",
+        "benefits"
+      ]
+    },
+    "prediction": {
+      "intent_type": "multiple",
+      "intent_type_confidence": 1.0,
+      "intent": "multiple",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "single": 0.0,
+            "multiple": 1.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "multiple",
+          "probabilities": {
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "multiple": 1.0,
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "out_of_scope": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 905,
+        "output_tokens": 111
+      },
+      "request_id": "req_01a108b07ae072ab8d6311e78ee0a5d6"
+    }
+  },
+  {
+    "id": "O001",
+    "query": "My work laptop screen is flickering and the keyboard stopped responding. Can you help me order a replacement?",
+    "level": "easy",
+    "domain": "out_of_scope",
+    "latency_ms": 135.0,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "out_of_scope": 1.0,
+            "single": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "leaves": 0.0,
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 1.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07b5672d58100c6c70e5f8af0"
+    }
+  },
+  {
+    "id": "O002",
+    "query": "I am locked out of my corporate single sign-on account and need a password reset link sent to my phone.",
+    "level": "easy",
+    "domain": "out_of_scope",
+    "latency_ms": 150.48,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "out_of_scope": 1.0,
+            "multiple": 0.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 1.0,
+            "multiple": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 897,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07be171fc82f5cd8bb6d041eb"
+    }
+  },
+  {
+    "id": "O003",
+    "query": "How do I connect my home MacBook to the corporate GlobalProtect VPN gateway?",
+    "level": "easy",
+    "domain": "out_of_scope",
+    "latency_ms": 121.32,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "out_of_scope": 1.0,
+            "timesheet": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07c777509a28d5fb893b4957a"
+    }
+  },
+  {
+    "id": "O004",
+    "query": "Can you approve my software license request for Figma Enterprise and GitHub Copilot?",
+    "level": "medium",
+    "domain": "out_of_scope",
+    "latency_ms": 139.49,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "out_of_scope": 1.0,
+            "single": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "timesheet": 0.0,
+            "out_of_scope": 1.0,
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 892,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07cf7795c85ca134269c29bd4"
+    }
+  },
+  {
+    "id": "O005",
+    "query": "I forgot my physical security badge at home. How do I get a temporary access card for the office turnstiles?",
+    "level": "easy",
+    "domain": "out_of_scope",
+    "latency_ms": 153.08,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "leaves": 0.0,
+            "payroll": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 1.0,
+            "multiple": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 899,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07d7f75c1b013b0c112993e3f"
+    }
+  },
+  {
+    "id": "O006",
+    "query": "Where do I register my vehicle license plate to obtain a monthly parking permit for the company garage?",
+    "level": "medium",
+    "domain": "out_of_scope",
+    "latency_ms": 169.24,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "out_of_scope": 1.0,
+            "multiple": 0.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "benefits": 0.0,
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 1.0,
+            "multiple": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07e1b75de8df6522eec8d79ac"
+    }
+  },
+  {
+    "id": "O007",
+    "query": "The conference room AC on floor 3 is completely off and the room is too warm. Can facilities fix the temperature?",
+    "level": "medium",
+    "domain": "out_of_scope",
+    "latency_ms": 167.08,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "out_of_scope": 1.0,
+            "single": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "benefits": 0.0,
+            "out_of_scope": 1.0,
+            "payroll": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "multiple": 0.0,
+            "timesheet": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 899,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07ec676b397ef6ccfbb175ccc"
+    }
+  },
+  {
+    "id": "O008",
+    "query": "What is the corporate per diem meal reimbursement limit for business travel to San Francisco?",
+    "level": "medium",
+    "domain": "out_of_scope",
+    "latency_ms": 154.73,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 0.99,
+      "intent": "out_of_scope",
+      "intent_confidence": 0.91
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "out_of_scope": 1.0,
+            "single": 0.0,
+            "multiple": 0.0
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "out_of_scope": 0.92,
+            "payroll": 0.03,
+            "multiple": 0.05,
+            "benefits": 0.0,
+            "employee_information": 0.0
+          },
+          "confidence": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 891,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b07f6b71969194de8375f29d1c"
+    }
+  },
+  {
+    "id": "O009",
+    "query": "How do I book roundtrip flights and lodging through Navan for the upcoming annual user conference?",
+    "level": "medium",
+    "domain": "out_of_scope",
+    "latency_ms": 131.43,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "timesheet": 0.0,
+            "benefits": 0.0,
+            "employee_information": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b08006749ebcdd21e8cd72b5aa"
+    }
+  },
+  {
+    "id": "O010",
+    "query": "Where can I locate the standard mutual NDA legal template to send to an external consulting firm?",
+    "level": "medium",
+    "domain": "out_of_scope",
+    "latency_ms": 135.35,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "single": 0.0,
+            "out_of_scope": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "payroll": 0.0,
+            "employee_information": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "timesheet": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 893,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b0808f745aacae5dbe960bc55d"
+    }
+  },
+  {
+    "id": "O011",
+    "query": "What is the official procedure to file an anonymous whistleblower report regarding vendor contract steering?",
+    "level": "hard",
+    "domain": "out_of_scope",
+    "latency_ms": 120.08,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 0.98
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "multiple": 0.02,
+            "out_of_scope": 0.98,
+            "employee_information": 0.0
+          },
+          "confidence": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 895,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b0811375ad8fa86f716c39ff66"
+    }
+  },
+  {
+    "id": "O012",
+    "query": "Can you share the customer presentation slides and product pricing matrix for the enterprise sales pitch?",
+    "level": "hard",
+    "domain": "out_of_scope",
+    "latency_ms": 158.87,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "single": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 1.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "employee_information": 0.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "benefits": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 892,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b0818c7cfe9a023e9570bb003b"
+    }
+  },
+  {
+    "id": "O013",
+    "query": "An enterprise client reported that our production webhook endpoint returned a 504 gateway timeout. Can someone inspect server telemetry?",
+    "level": "hard",
+    "domain": "out_of_scope",
+    "latency_ms": 193.93,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "single": 0.0,
+            "out_of_scope": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 1.0,
+            "payroll": 0.0,
+            "multiple": 0.0,
+            "benefits": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 899,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b0822d7a378115bd1475bc3d2b"
+    }
+  },
+  {
+    "id": "O014",
+    "query": "What are the operating hours and catering menu options for the corporate cafe this afternoon?",
+    "level": "easy",
+    "domain": "out_of_scope",
+    "latency_ms": 112.83,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 0.99,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 0.99,
+            "single": 0.01
+          },
+          "confidence": 0.99
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "employee_information": 0.0,
+            "benefits": 0.0,
+            "out_of_scope": 1.0,
+            "timesheet": 0.0,
+            "leaves": 0.0,
+            "payroll": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 891,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b082f07643842a2c767195360e"
+    }
+  },
+  {
+    "id": "O015",
+    "query": "Can you write a Python script using pandas and matplotlib to generate a bar chart of monthly expenses?",
+    "level": "hard",
+    "domain": "out_of_scope",
+    "latency_ms": 121.94,
+    "ground_truth": {
+      "intent_type": "out_of_scope",
+      "intent": "out_of_scope",
+      "intents": null
+    },
+    "prediction": {
+      "intent_type": "out_of_scope",
+      "intent_type_confidence": 1.0,
+      "intent": "out_of_scope",
+      "intent_confidence": 1.0
+    },
+    "details": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "intent_type": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "multiple": 0.0,
+            "out_of_scope": 1.0,
+            "single": 0.0
+          },
+          "confidence": 1.0
+        },
+        "intent": {
+          "type": "choice",
+          "choice": "out_of_scope",
+          "probabilities": {
+            "payroll": 0.0,
+            "benefits": 0.0,
+            "leaves": 0.0,
+            "timesheet": 0.0,
+            "employee_information": 0.0,
+            "out_of_scope": 1.0,
+            "multiple": 0.0
+          },
+          "confidence": 1.0
+        }
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 115
+      },
+      "request_id": "req_01a108b0836371f9b3a91bc5eb29b8c8"
+    }
+  }
+]
