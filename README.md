@@ -222,13 +222,6 @@ Create the virtual environment and install the locked dependencies:
 uv sync
 ```
 
-The project dependencies and versions are managed through:
-
-```text
-pyproject.toml
-uv.lock
-```
-
 ---
 
 # 6. Environment Configuration
@@ -247,37 +240,9 @@ cp .env.example .env
 
 Then populate the required TypeSafe API credential in `.env`.
 
-Example:
-
-```env
-TYPESAFE_API_KEY=your-typesafe-api-key
-```
-
-Do **not** commit the populated `.env` file.
-
-The repository should only contain the template:
-
-```text
-.env.example
-```
-
 ---
 
 # 7. Running the Benchmark
-
-The complete experiment is contained in:
-
-```text
-jev-intent-classification.ipynb
-```
-
-Launch Jupyter through the uv-managed environment:
-
-```bash
-uv run jupyter notebook
-```
-
-Then open:
 
 ```text
 jev-intent-classification.ipynb
@@ -363,6 +328,8 @@ The current benchmark successfully evaluated:
 ```text
 100 / 100 valid inference records
 ```
+
+![Confusion Matrices](benchmark_confusion_matrices.png)
 
 ## 9.1 Complexity Gate — Intent Type
 
@@ -502,15 +469,6 @@ The P99 latency was:
 
 The benchmark therefore does **not** claim a universal `<150 ms` latency guarantee.
 
-Instead, the measured benchmark profile is:
-
-```text
-P50   139.1 ms
-P90   167.3 ms
-P95   185.1 ms
-P99   262.9 ms
-```
-
 Actual production latency can vary based on deployment environment, network conditions, service load, and other runtime factors.
 
 ---
@@ -613,7 +571,6 @@ The benchmark achieved 100% precision, recall, and F1 on:
 - Timesheet
 - Out-of-scope classification
 
-![Confusion Matrices](benchmark_confusion_matrices.png)
 ---
 
 ## 4. Errors Are Concentrated in Difficult Cases
