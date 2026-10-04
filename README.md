@@ -613,6 +613,7 @@ The benchmark achieved 100% precision, recall, and F1 on:
 - Timesheet
 - Out-of-scope classification
 
+![Confusion Matrices](benchmark_confusion_matrices.png)
 ---
 
 ## 4. Errors Are Concentrated in Difficult Cases
