@@ -208,8 +208,8 @@ jev-experiment/
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/jev-hr-routing-benchmark.git
-cd jev-hr-routing-benchmark
+git clone https://github.com/AnudeepGadi/jev-hr-routing-benchmark-experiment
+cd jev-hr-routing-benchmark-experiment
 ```
 
 ## Install Dependencies
